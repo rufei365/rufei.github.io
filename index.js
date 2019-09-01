@@ -3816,4 +3816,10 @@
         return a.$ === m && (a.$ = fd), b && a.jQuery === m && (a.jQuery = ed), m
     }, typeof b === K && (a.jQuery = a.$ = m), m
 });
-
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b2161c20602efdc2a4e099d976992bf0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
